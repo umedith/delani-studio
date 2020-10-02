@@ -1,5 +1,7 @@
+body {
+   
+}
 #introduction {
-    
     color: white;
     line-height: 50px;
     font-size: 45px;
@@ -8,7 +10,25 @@
     background-image: url("h_img.jpg");
     background-size: cover;
     height:800px;
+    width: 29em;
 }
 #int {
     font-size: 15px;
 }
+#about {
+    text-align: center;
+    line-height: 45px;
+    margin-left: 100px;
+}
+#services {
+    background-image: url("s_image.jpg");
+    background-size: cover;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 110px;
+    height: 400px;
+    width: 1300px;
+    color:white;
+    
+}
+
