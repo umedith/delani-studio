@@ -1,0 +1,13 @@
+#introduction {
+    color: white;
+    line-height: 50px;
+    font-size: 45px;
+    padding-top: 200px;    
+    text-align: center;
+    background-image: url("h_img.jpg");
+    background-size: cover;
+    height:800px;
+}
+#int {
+    font-size: 15px;
+}
