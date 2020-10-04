@@ -1,31 +1,31 @@
 
-                            $(document).ready(function () {
-                               $('.three').click(function () {
-                                    $('.text-three').show();
-                                    $('.three').hide();
-                               });
-                               $('.text-three').click(function () {
-                                    $('.three').show();
-                                    $('.text-three').hide();
+                          $(document).ready(function () {
+                            $('.africa').click(function () {
+                                 $('.africa-text').show()
+                                 $('.africa').hide()
+                            })
+                            $('.africa-text').click(function () {
+                                 $('.africa').show()
+                                 $('.africa-text').hide()
+                            });
+                       });
+                          $(document).ready(function () {
+                               $('.asia').click(function () {
+                                    $('.asia-text').show()
+                                    $('.asia').hide()
+                               })
+                               $('.asia-text').click(function () {
+                                    $('.asia').show()
+                                    $('.asia-text').hide()
                                });
                           });
                           $(document).ready(function () {
-                               $('.four').click(function () {
-                                    $('.text-four').show()
-                                    $('.four').hide()
+                               $('.america').click(function () {
+                                    $('.america-text').show()
+                                    $('.america').hide()
                                })
-                               $('.text-four').click(function () {
-                                    $('.four').show()
-                                    $('.text-four').hide()
-                               });
-                          });
-                          $(document).ready(function () {
-                               $('.five').click(function () {
-                                    $('.text-five').show()
-                                    $('.five').hide()
-                               })
-                               $('.text-five').click(function () {
-                                    $('.five').show()
-                                    $('.text-five').hide()
+                               $('.america-text').click(function () {
+                                    $('.america').show()
+                                    $('.america-text').hide()
                                });
                            });
