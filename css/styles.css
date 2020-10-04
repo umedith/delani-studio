@@ -1,15 +1,19 @@
 body {
     font-family: 'Roboto Slab', serif;
+     max-width: 100%;
+     overflow-x: hidden;
+     /* margin: 3px; */
 }
 #introduction {
     color: white;
     line-height: 50px;
     font-size: 45px;
-    padding-top: 200px;    
+    padding-top: 150px;    
     text-align: center;
     background-image: url("h_img.jpg");
-    background-size: cover;
-    height:800px;
+    background-position: center;
+    background-size: 100%;
+    height:700px;
     width: 29em;
 }
 #int {
@@ -22,13 +26,70 @@ body {
 }
 #services {
     background-image: url("s_image.jpg");
-    background-size: cover;
+    background-size: 100%;
+    background-position: center;
     text-align: center;
     line-height: 50px;
     padding-top: 110px;
     height: 400px;
     width: 1300px;
-    color:white;
-    
+    color:white;   
 }
-
+#activities {
+    text-align: center;
+}
+#img3 {
+    float: right;
+}
+#img1 {
+    float: left;
+}
+#contact {
+    background-image: url("c_image.jpg");
+    background-size: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px; 
+    width: 1300px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+form {
+    margin-right: 12em;
+    font-size: 18px;
+}
+#name {
+    margin-right: 33em;
+}
+#email {
+    margin-left: 27em;
+}
+input {
+    width:400px;
+    background-color: transparent;
+    color: white;
+    /* border: 5px white; */
+}
+textarea {
+    background-color: transparent;
+    color: white;
+    margin-right: 3em;
+}
+.contacts {
+    display: inline;
+    padding: 10px;
+}
+footer {
+    text-align: center;
+}
+#last {
+    text-align: center;
+}
+.do {
+    display: none;
+}
+.clickable {
+    cursor: pointer;
+    color: #0088cc;
+  }
