@@ -37,12 +37,13 @@ body {
 #activities {
     text-align: center;
 }
-#img3 {
-    float: right;
+#designLogo , #devLogo, #productLogo {
+    height:50px;
+    width: 50px;
+    float:right;
+    
 }
-#img1 {
-    float: left;
-}
+
 #contact {
     background-image: url("c_image.jpg");
     background-size: 100%; 
@@ -54,25 +55,27 @@ body {
     padding-top: 40px;
     color: white;
 }
-form {
-    margin-right: 12em;
-    font-size: 18px;
+form {  
+     font-size: 18px;
+     padding: 50px;
 }
-#name {
-    margin-right: 33em;
-}
-#email {
-    margin-left: 27em;
-}
-input {
-    width:400px;
+
+
+input { 
+    width:500px;
     background-color: transparent;
     color: white;
+    border:1px solid white;
+
+} 
+#submit {
+    width: 80px;
 }
 textarea {
     background-color: transparent;
     color: white;
-    margin-right: 3em;
+    /* margin-right: 3em; */
+    border:1px solid white;
 }
 .contacts {
     display: inline;
@@ -84,11 +87,67 @@ footer {
 #last {
     text-align: center;
 }
-.do {
+.text-three, .text-four, .text-five {
     display: none;
 }
 .clickable {
     cursor: pointer;
     color: #0088cc;
   }
-  
+ .block{
+     display:inline;
+ }
+ .view-overlay{
+    position:relative;
+    text-align:center;
+    }
+    .img-fluid{
+      opacity:1;
+      display:block;
+      height:auto;
+      transition: 0.5s ease;
+      -webkit-transition: 0.5s ease;
+      -moz-transition:0.5s ease;
+      backface-visibility: hidden;
+      margin: 5px;
+      margin-bottom: 15px;
+      margin-left: 7px;
+    }
+    
+    .view-overlay:hover .img-fluid{
+      opacity: 0.4;
+    }
+    .diffrence{
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    }
+    .view-overlay:hover .diffrence{
+      opacity: 1;
+    }
+    
+    .text {
+      background-color:gray;
+      color: black;
+      padding: 16px 32px;
+      text-align: center;
+    }
+    
+    .text:hover{
+      background-color: aquamarine;
+      color: white;
+      opacity: 0.9;
+      font-weight: bolder;
+    }
